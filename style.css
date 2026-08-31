@@ -636,3 +636,29 @@ body {
   bottom: 0;
   left: 0;
 }
+.site-footer {
+  width: 100%;
+  background: linear-gradient(90deg, #ff6600, #ffcc00); /* orange gradient */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  position: relative; /* since you're using frameset, footer.html handles positioning */
+}
+
+/* Text effect */
+.site-footer p {
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.site-footer p:hover {
+  transform: scale(1.1);
+  color: #000;
+}
+
