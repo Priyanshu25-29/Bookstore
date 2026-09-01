@@ -451,6 +451,7 @@ body {
 
 /* Heading */
 .register-box h2 {
+   margin-top: 350px;
   margin-bottom: 20px;
   color: #333;
   font-size: 26px;
